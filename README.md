@@ -16,3 +16,7 @@ dataform compile example_project/ --json
 ```bash
 dataform compile example_project/ --json  | conftest test -
 ```
+
+## Links
+
+- [Blog](https://blog.ri52dksla.dev/posts/dataform-conftest/)
