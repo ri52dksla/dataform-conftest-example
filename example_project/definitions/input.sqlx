@@ -1,5 +1,6 @@
 config {
   type: "declaration",
   schema: "input",
-  name: "data"
+  name: "data",
+  description: "input"
 }

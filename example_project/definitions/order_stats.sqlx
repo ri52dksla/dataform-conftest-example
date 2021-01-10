@@ -1,7 +1,16 @@
 config {
-  type: "table"
+  type: "table",
+  description: "This table joins orders information from Shopify & payment information from Stripe",
+  tags: ["example","daily"],
+  bigquery: {
+    labels: {
+      "hello": "world",
+      "managed_by" : "dataform"
+    },
+  },
 }
 
+-- copy from https://docs.dataform.co/getting-started-tutorial/building-your-data-model
 SELECT
   orders.date AS order_date,
   orders.id AS id,
